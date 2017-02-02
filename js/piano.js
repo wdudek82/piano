@@ -20,7 +20,7 @@ function playSound(sound) {
 	console.log("Sound: "+sound.slice(-2));
     new Audio("scale/"+sound+".mp3").play();
 
-window.onkeydown = function(e) {
+window.onkeypress = function(e) {
    var key = e.keyCode ? e.keyCode : e.which;
 
    if (key == 65) {
