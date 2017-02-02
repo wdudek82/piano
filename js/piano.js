@@ -7,8 +7,8 @@
 // var h1 = document.getElementById("c1");
 // var c2 = document.getElementById("c1");
 
-// c1.addEventListener('keypress', playSound("piano_c1"));
-// d1.addEventListener('keypress', playSound("piano_d1"));
+// c1.addEventListener('mouseover', playSound("piano_c1"));
+// d1.addEventListener('click', playSound("piano_d1"));
 // e1.addEventListener('click', playSound("piano_e1"));
 // f1.addEventListener('click', playSound("piano_f1"));
 // g1.addEventListener('click', playSound("piano_g1"));
