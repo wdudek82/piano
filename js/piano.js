@@ -20,10 +20,32 @@ function playSound(sound) {
 	console.log("Sound: "+sound.slice(-2));
 	new Audio("scale/"+sound+".mp3").play();
 }
-window.onkeyup = function(e) {
+window.onkeydown = function(e) {
    var key = e.keyCode ? e.keyCode : e.which;
 
    if (key == 65) {
 	   playSound('piano_c1')
    }
+      if (key == 83) {
+	   playSound('piano_d1')
+   }
+      if (key == 68) {
+	   playSound('piano_e1')
+   }
+      if (key == 70) {
+	   playSound('piano_f1')
+   }
+      if (key == 74) {
+	   playSound('piano_g1')
+   }
+      if (key == 75) {
+	   playSound('piano_a1')
+   }
+      if (key == 76) {
+	   playSound('piano_b1')
+   }
+      if (key == 59) {
+	   playSound('piano_c2')
+   }
+   
 }
