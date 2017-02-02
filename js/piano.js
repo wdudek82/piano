@@ -18,13 +18,13 @@
 
 function playSound(sound) {
 	console.log("Sound: "+sound.slice(-2));
-	new Audio("scale/"+sound+".mp3").play();
+	new Audio("new.scale/"+sound+".aiff").play();
 }
 window.onkeydown = function(e) {
    var key = e.keyCode ? e.keyCode : e.which;
 
    if (key == 65) {
-	   playSound('piano_c1')
+	   playSound('1Piano.C4')
    }
       if (key == 83) {
 	   playSound('piano_d1')
