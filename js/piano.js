@@ -42,7 +42,7 @@ window.onkeydown = function(e) {
 	   playSound('piano_a1')
    }
       if (key == 76) {
-	   playSound('piano_b1')
+	   playSound('piano_h1')
    }
       if (key == 59) {
 	   playSound('piano_c2')
