@@ -18,7 +18,7 @@
 
 function playSound(sound) {
 	console.log("Sound: "+sound.slice(-2));
-	new Audio("new.scale/"+sound+".aiff").play();
+	new Audio("new.scale/"+sound+".mp3").play();
 }
 window.onkeydown = function(e) {
    var key = e.keyCode ? e.keyCode : e.which;
